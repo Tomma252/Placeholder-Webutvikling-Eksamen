@@ -124,12 +124,24 @@ button {
 
 footer {
     width: auto;
-    padding: 1vh;
+    padding: 70px 0;
     color: #fff;
     background-color: #252525;
 }
 
-#copyright {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.somelenker {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+}
+
+/*#copyright {
     text-align: center;
 }
 
@@ -137,4 +149,4 @@ footer ol a {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-}
+}*/
