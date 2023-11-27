@@ -17,7 +17,7 @@ nav a {
 }
 
 #contact {
-    padding: 0.5px;
+    padding: 0;
     background-color: #e6bd43;
 }
 
@@ -47,7 +47,7 @@ button {
     border-color: black;
 }
 
-#services {
+#services-knapp {
     display: inline-block;
     width: fit-content;
     padding: 10px 15px;
@@ -58,23 +58,66 @@ button {
 
 #subheading {
     text-align: center;
+    padding: 3rem;
 }
 
 #company {
     width: auto;
     height: auto;
     padding: 10px;
-    border: 1px;
+    border: 2px;
     border-style: groove;
     border-color: black;
-    margin: 0px;
+    margin: auto;
+
 }
 
 #our-company {
     display: grid;
     padding: 2rem;
     grid-template-columns: min-content 1fr;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
     max-width: 600px;
+}
+
+#company-picture {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#service-tittel {
+    text-align: center;
+}
+
+#our-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1vh;
+    gap: 8rem;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+#newsletter {
+    width: auto;
+    height: 100px;
+    padding: 1rem;
+    background-color: #f3f0f1;
+    text-align: center;
+}
+
+#newsletter-knapp {
+    width: auto;
+    height: 40px;
+    background-color: #e6bd43;
+    border-style: none;
+}
+
+#email-felt {
+    width: auto;
+    height: 35px;
+    background-color: #fff;
+    border-style: none;
 }
