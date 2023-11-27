@@ -10,7 +10,7 @@ nav a {
     display: inline-block;
 }
 
-.navtekst {
+#navtekst {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -120,4 +120,21 @@ button {
     height: 35px;
     background-color: #fff;
     border-style: none;
+}
+
+footer {
+    width: auto;
+    padding: 1vh;
+    color: #fff;
+    background-color: #252525;
+}
+
+#copyright {
+    text-align: center;
+}
+
+footer ol a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
 }
