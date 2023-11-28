@@ -202,7 +202,7 @@ button {
     background-color: #f3f0f1;
 }
 
-#contact-tittel {
+/*#contact-tittel {
     text-align: center;
 }
 
@@ -262,6 +262,36 @@ button {
     width: 400px;
     height: 35px;
     background-color: #fff;
+}
+
+#contact-knapp {
+    position: relative;
+    top: 40px;
+    left: -430px;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: #e6bd43;
+    font-weight: 700;
+    border-style: none;
+}*/
+
+/* CSS stil basert på https://www.w3schools.com/howto/howto_css_contact_form.asp */
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #e6bd43;
+    font-weight: 700;
+    border-style: none;
+}
+
+.contact-skjema {
+    padding: 20px;
 }
 
 #skole-kart {

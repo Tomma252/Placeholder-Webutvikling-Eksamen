@@ -90,7 +90,7 @@
         <section id="kart-skole">
             <img src="img/campus.jpg" alt="Skolen-kart" id="skole-kart">
         </section>
-        <section class="contact-us">
+        <!--<section class="contact-us">
             <h3 id="contact-tittel">Contact us</h3>
             <article>
                 <h4 id="message-tittel">Send us a message</h4>
@@ -112,6 +112,20 @@
                 <h4 id="contact-info-tittel">Contact information</h4>
                 <span>Lorem ipsum Donec mattis libero et ex consectetur. Lorem ipsum Donec mattis libero et ex consectetur. Lorem ipsum Donec mattis libero et ex consectetur</span>
             </article>
+        </section>-->
+        <section id="contact-skjema"> <!--Kode følger er basert på https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+            <form>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Ola Nordmann..">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Branding..">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" style="width:400px"></textarea>
+
+                <input type="submit" value="Submit" id="message-knapp">
+            </form>
         </section>
     </main>
     
