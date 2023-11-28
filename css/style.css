@@ -278,9 +278,8 @@ button {
 
 /* CSS stil basert på https://www.w3schools.com/howto/howto_css_contact_form.asp */
 input[type=text], textarea {
-    width: 50%;
+    width: 100%;
     padding: 10px 15px;
-    margin: 10px;
     box-sizing: border-box;
     resize: vertical;
 }
@@ -297,6 +296,18 @@ input[type=submit] {
     justify-content: space-between;
     background-color: #f3f0f1;
     padding: 20px;
+    text-align: center;
+}
+
+.contact-skjema form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact-skjema form label {
+    display: block;
+    margin-top: 10px;
 }
 
 .contact-skjema span {
@@ -305,6 +316,7 @@ input[type=submit] {
 
 #contact-tittel {
     text-align: center;
+    margin: 5px;
 }
 
 #skole-kart {
