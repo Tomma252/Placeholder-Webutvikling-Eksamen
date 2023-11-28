@@ -122,31 +122,37 @@ button {
     border-style: none;
 }
 
-footer {
+.footer {
     width: auto;
-    padding: 70px 0;
+    padding: 1px;
     color: #fff;
     background-color: #252525;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.footer article a {
+    position: relative;
+    left: 30px;
+    top: 30px;
 }
 
-.somelenker {
+#copyright {
+    position: relative;
+    top: 30px;
+    right: 600px;
+}
+
+.footer article ul {
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 90px;
+    left: 1400px;
+}
+
+.footer article ul a {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
-    display: inline-block;
-    text-align: right;
 }
-
-/*#copyright {
-    text-align: center;
-}
-
-footer ol a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-}*/
