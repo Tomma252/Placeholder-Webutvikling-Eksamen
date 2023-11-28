@@ -195,6 +195,75 @@ button {
     margin: 0;
 }
 
+.contact-us {
+    width: 100%;
+    height: 500px;
+    padding: 1rem;
+    background-color: #f3f0f1;
+}
+
+#contact-tittel {
+    text-align: center;
+}
+
+#contact-name {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact-name-tittel {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+
+#contact-name-boks {
+    border-style: none;
+    width: 400px;
+    height: 35px;
+    background-color: #fff;
+}
+
+#contact-subject {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact-subject-tittel {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+
+#contact-subject-boks {
+    position: relative;
+    left: -10px;
+    border-style: none;
+    width: 400px;
+    height: 35px;
+    background-color: #fff;
+}
+
+#contact-message {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact-message-tittel {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+
+#contact-message-boks {
+    position: relative;
+    left: -20px;
+    border-style: none;
+    width: 400px;
+    height: 35px;
+    background-color: #fff;
+}
+
 #skole-kart {
     width: 100%;
     height: 500px;
