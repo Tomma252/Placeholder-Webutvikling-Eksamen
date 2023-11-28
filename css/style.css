@@ -122,6 +122,28 @@ button {
     border-style: none;
 }
 
+#skole-kart {
+    width: 100%;
+    height: 500px;
+}
+
+#skolenavn {
+    text-align: center;
+}
+
+#kart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1vh;
+    gap: 1rem;
+    max-width: 850px;
+    margin: auto;
+}
+
+#tlf-nummer-bold {
+    font-weight: 600;
+}
+
 .footer {
     width: auto;
     padding: 1px;
