@@ -292,16 +292,15 @@ input[type=submit] {
 
 .contact-skjema {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #f3f0f1;
     padding: 20px;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .contact-skjema form {
     max-width: 600px;
-    margin: auto;
     text-align: left;
 }
 
@@ -311,10 +310,12 @@ input[type=submit] {
 }
 
 .contact-skjema span {
+    max-width: 400px;
     text-align: left;
 }
 
 #contact-tittel {
+    flex: 1 0 100%;
     text-align: center;
     margin: 5px;
 }
