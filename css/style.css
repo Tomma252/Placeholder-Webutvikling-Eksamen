@@ -99,7 +99,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1vh;
-    gap: 8rem;
+    gap: 1rem;
     align-items: center;
     max-width: 800px;
     margin: auto;
@@ -157,7 +157,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1vh;
-    gap: 8rem;
+    gap: 1rem;
     align-items: center;
     max-width: 800px;
     margin: auto;
@@ -207,7 +207,7 @@ nav {
 
 /* CSS stil basert på https://www.w3schools.com/howto/howto_css_contact_form.asp */
 input[type=text], textarea {
-    width: 100%;
+    width: 50%;
     padding: 10px 15px;
     box-sizing: border-box;
     resize: vertical;
@@ -222,7 +222,7 @@ input[type=submit] {
 
 .contact-skjema {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f3f0f1;
     padding: 20px;
     flex-wrap: wrap;
