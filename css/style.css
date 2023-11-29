@@ -418,7 +418,13 @@ input[type=submit] {
     text-decoration: none;
 }
 
-.footer a.somelenke {
+/*.footer a.somelenke {
     display: inline-block;
     padding: 5px;
+}*/
+
+.footer article ul li {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
 }
