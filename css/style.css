@@ -195,87 +195,6 @@ button {
     margin: 0;
 }
 
-/*.contact-skjema {
-    width: 100%;
-    height: 500px;
-    padding: 1rem;
-    background-color: #f3f0f1;
-}*/
-
-/*#contact-tittel {
-    text-align: center;
-}
-
-#contact-name {
-    padding: 10px;
-    margin: 10px;
-}
-
-#contact-name-tittel {
-    position: relative;
-    bottom: 30px;
-    left: 45px;
-}
-
-#contact-name-boks {
-    border-style: none;
-    width: 400px;
-    height: 35px;
-    background-color: #fff;
-}
-
-#contact-subject {
-    padding: 10px;
-    margin: 10px;
-}
-
-#contact-subject-tittel {
-    position: relative;
-    bottom: 30px;
-    left: 45px;
-}
-
-#contact-subject-boks {
-    position: relative;
-    left: -10px;
-    border-style: none;
-    width: 400px;
-    height: 35px;
-    background-color: #fff;
-}
-
-#contact-message {
-    padding: 10px;
-    margin: 10px;
-}
-
-#contact-message-tittel {
-    position: relative;
-    bottom: 30px;
-    left: 45px;
-}
-
-#contact-message-boks {
-    position: relative;
-    left: -20px;
-    border-style: none;
-    width: 400px;
-    height: 35px;
-    background-color: #fff;
-}
-
-#contact-knapp {
-    position: relative;
-    top: 40px;
-    left: -430px;
-    display: inline-block;
-    width: fit-content;
-    padding: 10px 15px;
-    background-color: #e6bd43;
-    font-weight: 700;
-    border-style: none;
-}*/
-
 /* CSS stil basert på https://www.w3schools.com/howto/howto_css_contact_form.asp */
 input[type=text], textarea {
     width: 100%;
@@ -319,28 +238,6 @@ input[type=submit] {
     text-align: center;
     margin: 5px;
 }
-
-/*#skole-kart {
-    width: 100%;
-    height: 500px;
-}
-
-#skolenavn {
-    text-align: center;
-}
-
-#kart {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1vh;
-    gap: 1rem;
-    max-width: 850px;
-    margin: auto;
-}
-
-#tlf-nummer-bold {
-    font-weight: 600;
-}*/
 
 .gmap iframe {
     width: 100%;
