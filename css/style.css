@@ -245,6 +245,35 @@ input[type=submit] {
     height: 200px;
 }
 
+.branding {
+    display: flex;
+    justify-content: space-between;
+}
+
+.branding ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+}
+
+.branding li {
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 33%;
+}
+
+.branding img {
+    width: 100%;
+    max-width: 692px;
+    max-height: 692px;
+}
+
+.branding h5 {
+    margin: 1vh 0;
+}
+
 .footer {
     background-color: #252525;
     color: #fff;
