@@ -275,7 +275,7 @@ input[type=submit] {
 }
 
 #branding-tittel {
-    margin: 18px 0 18px 45px;
+    margin: 18px 0 18px 50px;
     border-bottom-style: groove;
     border-color: #e6bd43;
 }
@@ -310,7 +310,7 @@ input[type=submit] {
 }
 
 #design-tittel {
-    margin: 18px 0 18px 45px;
+    margin: 18px 0 18px 50px;
     border-bottom-style: groove;
     border-color: #e6bd43;
 }
@@ -345,7 +345,7 @@ input[type=submit] {
 }
 
 #development-tittel {
-    margin: 18px 0 18px 45px;
+    margin: 18px 0 18px 50px;
     border-bottom-style: groove;
     border-color: #e6bd43;
 }
